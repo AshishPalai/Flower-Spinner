@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiner</title>
+</head>
+
+<body>
+    <div class="tringle">
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <div>
+                                                    <div>
+                                                        <div>
+                                                            <div>
+                                                                <div>
+                                                                    <div>
+                                                                        <div>
+                                                                            <div>
+                                                                                <div>
+                                                                                    <div></div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            background-color: black;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .tringle {
+            height: 400px;
+            width: 400px;
+            position: relative;
+            border-radius: 500%;
+        }
+
+        div {
+            height: 400px;
+            width: 400px;
+            box-sizing: border-box;
+            border-radius: 0%;
+            border-top: 0.4em solid cyan;
+            border-bottom: 0.4em solid orange;
+            border-left: 0.4em solid tomato;
+            border-right: 0.4em solid greenyellow;
+            animation: spin 30s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</body>
+
+</html>
